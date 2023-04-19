@@ -34,7 +34,6 @@ async function init() {
     const input = await inquirer.prompt(questions);
     const svg = generateSVG(input)
     fs.writeFile('./svg_output/logo.svg', svg, err => err ? console.error(err) : console.log("Hooray, you generated a new logo.svg!"))
-    console.log(svg)
 }
 
 init();
