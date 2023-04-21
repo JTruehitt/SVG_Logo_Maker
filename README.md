@@ -20,7 +20,7 @@ This project is my first dive into test driven development. Jest was used in ord
   npm i
   
   ## Usage
-  Initialize the inquirer with node index.js. Complete all of the prompts to have your svg generated to your   specifications.
+  Initialize the inquirer with node index.js. Complete all of the prompts to have an svg generated to your   specifications.
 
   ## Questions?
   If you have any questions, please reach out!
